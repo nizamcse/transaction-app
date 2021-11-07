@@ -49,7 +49,10 @@ function App() {
           finalBalance={finalBalance}
         />
         <TransactionList items={history} />
-        <TransactiionForm updateBalance={updateBalance} />
+        <TransactiionForm
+          finalBalance={finalBalance}
+          updateBalance={updateBalance}
+        />
       </Box>
     </div>
   );
